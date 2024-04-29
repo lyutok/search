@@ -1,0 +1,44 @@
+.grid {
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+    text-align: center;
+    grid-template-columns: auto 120px 120px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(26, 119, 88);
+
+}
+
+form {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+input[type="search"] {
+    font-size: 16px;
+    width: 600px;
+    height: 50px;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input[type="submit"] {
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: rgb(70, 149, 122);
+   
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(116, 194, 165);
+} 

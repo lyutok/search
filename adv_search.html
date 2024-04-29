@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <style>
+        h1 {
+            text-align: left;
+            margin-left: 20px;
+          }
+
+        form {
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 40px;
+            text-align: csenter;
+        }
+
+        input[type="submit"] {
+            background-color: rgb(74, 183, 241); 
+            color: white;
+            border-radius: 0;
+            width: 180px;
+            height: 30px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: rgb(148, 217, 253); 
+        }
+        input[type="text"] {
+            width: 400px;
+        }
+    </style>
+    <title>Advanvance</title>
+</head>
+
+<body>
+    <div class="grid">
+        <div></div>
+        <div></div>
+        <div>
+            <a href="index.html">Google Search</a>
+        </div>
+    </div>
+    <h1 style="text-align: left;">Google Advanced Search</h1>
+    <form style="text-align: left;" action="https://www.google.com/search" method="get">
+            <table>
+                <tr>
+                    <td><label for="all_words">All these words:</label></td>
+                    <td><input type="text" name="as_q"></td>
+                </tr>
+                <tr>
+                    <td><label for="exact_word">This exact word or phrase (in quotes):</label></td>
+                    <td><input type="text" name="as_epq"></td>
+                </tr>
+                <tr>
+                    <td><label for="any_word">Any of these words (use OR between the words):</label></td>
+                    <td><input type="text" name="as_oq"></td>
+                </tr>
+                <tr>
+                    <td><label for="none_word">None of these words(- in the beginning):</label></td>
+                    <td><input type="text" name="as_eq"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td style="text-align: right;"><input type="submit" value="Advanced Search"></td>
+                </tr>
+            </table>
+        </form>
+</body>
+
+</html>
